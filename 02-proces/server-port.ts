@@ -1,0 +1,1 @@
+console.log(process.env.PORT_TEMP ?? "NO PORT environment variable set, defaulting to 3000")
