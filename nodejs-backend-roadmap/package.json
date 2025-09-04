@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:run-globals": "ts-node src/01-core-concepts/process-and-globals.ts"
+    "dev:run-globals": "ts-node -r dotenv/config src/01-core-concepts/process-and-globals.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "dotenv": "^17.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
