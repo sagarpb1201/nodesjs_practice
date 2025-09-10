@@ -9,7 +9,11 @@
     "dev:run-blocking": "ts-node src/02-event-loop/blocking-io.ts",
     "dev:run-non-blocking":"ts-node src/02-event-loop/non-blocking-io.ts",
     "dev:run-promises":"ts-node src/02-event-loop/promises.ts",
-    "dev:run-async-await":"ts-node src/02-event-loop/async-await.ts"
+    "dev:run-async-await":"ts-node src/02-event-loop/async-await.ts",
+    "dev:run-modules":"ts-node src/03-modules/main.ts",
+    "dev:run-path":"ts-node src/04-built-in-modules/path-module.ts",
+    "dev:run-fs-sync":"ts-node src/04-built-in-modules/fs-sync.ts",
+    "dev:run-fs-async":"ts-node src/04-built-in-modules/fs-async.ts"
   },
   "keywords": [],
   "author": "",
