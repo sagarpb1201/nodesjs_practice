@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:run-globals": "ts-node -r dotenv/config src/01-core-concepts/process-and-globals.ts"
+    "dev:run-globals": "ts-node -r dotenv/config src/01-core-concepts/process-and-globals.ts",
+    "dev:run-blocking": "ts-node src/02-event-loop/blocking-io.ts",
+    "dev:run-non-blocking":"ts-node src/02-event-loop/non-blocking-io.ts",
+    "dev:run-promises":"ts-node src/02-event-loop/promises.ts",
+    "dev:run-async-await":"ts-node src/02-event-loop/async-await.ts"
   },
   "keywords": [],
   "author": "",
