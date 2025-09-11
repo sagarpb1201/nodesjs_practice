@@ -13,7 +13,8 @@
     "dev:run-modules":"ts-node src/03-modules/main.ts",
     "dev:run-path":"ts-node src/04-built-in-modules/path-module.ts",
     "dev:run-fs-sync":"ts-node src/04-built-in-modules/fs-sync.ts",
-    "dev:run-fs-async":"ts-node src/04-built-in-modules/fs-async.ts"
+    "dev:run-fs-async":"ts-node src/04-built-in-modules/fs-async.ts",
+    "dev:run-fs-write":"ts-node src/04-built-in-modules/fs-write.ts"
   },
   "keywords": [],
   "author": "",
