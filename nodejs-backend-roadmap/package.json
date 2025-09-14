@@ -16,7 +16,8 @@
     "dev:run-fs-async":"ts-node src/04-built-in-modules/fs-async.ts",
     "dev:run-fs-write":"ts-node src/04-built-in-modules/fs-write.ts",
     "dev:run-importer":"ts-node src/04-built-in-modules/module-importer.ts",
-    "dev:run-fs-cleanup":"ts-node src/04-built-in-modules/fs-cleanup.ts"
+    "dev:run-fs-cleanup":"ts-node src/04-built-in-modules/fs-cleanup.ts",
+    "dev:run-http":"ts-node src/05-http-module/http-server.ts"
   },
   "keywords": [],
   "author": "",
